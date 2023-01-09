@@ -13,12 +13,12 @@ menu:
 <div id="locations">
   {% for location in site.locations %}
   <div class="location-info">
-    <iframe src="{{ location.google-maps-embed }}" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe src="{{ location.google_maps_embed }}" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
     <h3 class="location-name"><a href="{{ location.permalink }}">{{ location.title }}</a></h3>
     <address>
-      <p>{{ location.address-1 }}<br>
-      {{ location.address-2 }}<br>
-      {{ location.city-state-zip }}<br>
+      <p>{{ location.address_1 }}<br>
+      {{ location.address_2 }}<br>
+      {{ location.city_state_zip }}<br>
       Tel: {{ location.phone }} | Fax: {{ location.fax }}</p>
     </address>
   </div>

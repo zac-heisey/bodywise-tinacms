@@ -2,23 +2,22 @@
 title: Westminster Physical Therapy
 subtitle: Bodywise Physical Therapy in Westminster, CO
 description: Bodywise Physical Therapy offers 1-on-1 physical therapy in Westminster, CO. Visit our Westminster physical therapy office today.
-address-1: 10155 Westmoor Dr.
-address-2: Unit 185 (Fitness Center in Building 3)
-city-state-zip: Westminster, CO 80021
+address_1: 10155 Westmoor Dr.
+address_2: Unit 185 (Fitness Center in Building 3)
+city_state_zip: Westminster, CO 80021
 phone: "(303) 444-2529"
 fax: "(303) 444-2563"
-google-maps-embed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3061.078398465712!2d-105.11237768488188!3d39.89487697942917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b8bef10b36397%3A0x29bb785813336c06!2sBodywise+Physical+Therapy!5e0!3m2!1sen!2sus!4v1550783772911
+google_maps_embed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3061.078398465712!2d-105.11237768488188!3d39.89487697942917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b8bef10b36397%3A0x29bb785813336c06!2sBodywise+Physical+Therapy!5e0!3m2!1sen!2sus!4v1550783772911
 permalink: /location/physical-therapy-westminster/
 layout: page
 ---
 
 <!-- Google Map Embed -->
-
-<iframe src="{{ page.google-maps-embed }}" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="{{ page.google_maps_embed }}" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 <h3>Bodywise Physical Therapy in Westminster</h3>
 <address>
-  <h4>Address: {{ page.address-1 }} {{ page.address-2 }}, {{ page.city-state-zip }}<br>
+  <h4>Address: {{ page.address_1 }} {{ page.address_2 }}, {{ page.city_state_zip }}<br>
   Phone: <a href="tel:13034442529">{{ page.phone }}</a></h4>
 </address>
 
